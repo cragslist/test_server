@@ -1,0 +1,20 @@
+{
+  "name": "test_server",
+  "version": "1.0.0",
+  "description": "A test docker server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cragslist/test_server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cragslist/test_server/issues"
+  },
+  "homepage": "https://github.com/cragslist/test_server#readme"
+}
