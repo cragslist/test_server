@@ -10,4 +10,4 @@ RUN npm install
 
 # Start app
 EXPOSE 8080
-CMD ["node", "server"]
+CMD ["node", "src/server"]

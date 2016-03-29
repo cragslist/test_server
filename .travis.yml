@@ -1,0 +1,7 @@
+
+services :
+  - docker
+
+before_install :
+ - docker build -t cragslist/test_server .
+ - docker run -it cragslist/test_server /bin/bash -c "npm test"

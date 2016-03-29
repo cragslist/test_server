@@ -4,7 +4,7 @@
   "description": "A test docker server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tape test/**/*.js",
     "start": "node server.js"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cragslist/test_server/issues"
   },
-  "homepage": "https://github.com/cragslist/test_server#readme"
+  "homepage": "https://github.com/cragslist/test_server#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
 }
